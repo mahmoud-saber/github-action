@@ -1,0 +1,9 @@
+name: 02-event-workflow
+
+on: push
+jobs:
+  print-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello, World!
+        run: echo "Hello, World!"
