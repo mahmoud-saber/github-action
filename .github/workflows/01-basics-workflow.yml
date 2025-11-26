@@ -1,0 +1,8 @@
+name: 01-basics-workflow
+on: workflow_dispatch
+jobs:
+  print-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello, World!
+        run: echo "Hello, World!"
