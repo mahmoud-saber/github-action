@@ -1,6 +1,6 @@
 name: 01-basic-workflow
 
-on: push
+on: workflow_dispatch
 
 jobs:
   print-hello:
